@@ -13,17 +13,17 @@
         android:layout_height="53dp"
         android:background="@drawable/buttontrans"
         android:ems="10"
-        android:textColor="@color/black"
-        android:inputType="text"
         android:hint="@string/username"
+        android:inputType="text"
         android:paddingStart="15dp"
+        android:textColor="@color/black"
         android:textSize="17.5sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintHorizontal_bias="0.342"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintVertical_bias="0.415" />
 
     <TextView
         android:id="@+id/textView5"
@@ -32,13 +32,13 @@
         android:text="@string/sign_up"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <EditText
         android:id="@+id/signupPassword"
