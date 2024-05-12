@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/updateButton"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="270dp"
+                android:src="@drawable/pen"/>
+
+            <ImageView
+                android:id="@+id/deleteButton"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="310dp"
+                android:src="@drawable/dleteicon"/>
+
+
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/contentEditTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content"
+        android:textColor="@color/black"
+        android:maxLines="3"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

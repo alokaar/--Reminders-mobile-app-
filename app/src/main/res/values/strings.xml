@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">project_3</string>
+    <string name="name">Name</string>
+    <string name="log_in">Log In</string>
+    <string name="forget_your_password">Forget Your Password?</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register_now">Register now</string>
+    <string name="todo">TODO</string>
+    <string name="grab_your_tickets">Grab your tickets</string>
+    <string name="events">Events</string>
+    <string name="up_coming_shows">Up Coming shows</string>
+    <string name="up_coming_show">Up Coming show</string>
+    <string name="get_started">Get Started</string>
+    <string name="your_adventure_begins_here_start_discovering_now">Your adventure begins here. Start discovering now!</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="next">Next</string>
+    <string name="instant_ever_alerts">Instant ever Alerts</string>
+    <string name="get_instant_updates_on_nearby_events_from_concerts_to_festivals">Get instant updates on nearby events, from concerts to festivals</string>
+    <string name="terms_and_condition">Terms And Condition</string>
+    <string name="welcome_to_your_event_app_these_terms_and_conditions_govern_your_use_of_our_mobile_application_and_related_services_by_using_our_app_you_agree_to_comply_with_these_terms_if_you_do_not_agree_with_any_part_of_these_terms_please_refrain_from_using_our_app_1_user_conduct_you_agree_to_use_the_app_in_accordance_with_all_applicable_laws_and_regulations_you_agree_not_to_use_the_app_for_any_unlawful_or_unauthorized_purpose_you_agree_not_to_interfere_with_the_app_s_operation_or_disrupt_other_users_experiences_2_account_registration_you_may_be_required_to_create_an_account_to_access_certain_features_of_the_app_you_agree_to_provide_accurate_and_complete_information_when_registering_for_an_account_you_are_responsible_for_maintaining_the_confidentiality_of_your_account_credentials_and_for_all_activities_that_occur_und">Welcome to [Your Event App]! These terms and conditions govern your use of our mobile application and related services. By using our app, you agree to comply with these terms. If you do not agree with any part of these terms, please refrain from using our app. 1. User Conduct You agree to use the app in accordance with all applicable laws and regulations. You agree not to use the app for any unlawful or unauthorized purpose. You agree not to interfere with the app\'s operation or disrupt other users\' experiences. 2. Account Registration You may be required to create an account to access certain features of the app. You agree to provide accurate and complete information when registering for an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur und</string>
+    <string name="agree">Agree</string>
+    <string name="sign_up">Sign up</string>
+    <string name="firstname">FirstName</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign in</string>
+    <string name="edit">Edit</string>
+    <string name="_0705246580">0705246580</string>
+    <string name="delete_my_account">Delete My Account</string>
+    <string name="bns_with_umaria">BnS with Umaria</string>
+    <string name="nadhagama">Nadhagama</string>
+    <string name="subathiaswini2002_gmail_com">subathiaswini2002@gmail.com</string>
+    <string name="aloka_rathnayaka">Aloka Rathnayaka</string>
+    <string name="aloka_rathnayake">Aloka Rathnayake</string>
+    <string name="be_the_first_to_know">Be the first to know</string>
+    <string name="enable_notification_to_make_sure_you_are_first_in_line_to_get_tickets_for_the_show">Enable notification to make sure you are first in line to get tickets for the show</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="add_reminders">Add Reminder</string>
+    <string name="upcomingshows">Up coming show</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="note">Note</string>
+    <string name="add">Add</string>
+    <string name="notification">Notification</string>
+    <string name="login1">Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="fn">FirstName</string>
+
+
+
+
+</resources>

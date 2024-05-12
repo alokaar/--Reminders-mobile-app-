@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant_color_background"
+    tools:context=".Activity.Home_5">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="399dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="13dp"
+        android:layout_weight="1"
+        android:text="@string/terms_and_condition"
+        android:textAlignment="center"
+        android:layout_marginTop="24dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="372dp"
+        android:layout_height="764dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="21dp"
+        android:layout_weight="1"
+        android:text="@string/welcome_to_your_event_app_these_terms_and_conditions_govern_your_use_of_our_mobile_application_and_related_services_by_using_our_app_you_agree_to_comply_with_these_terms_if_you_do_not_agree_with_any_part_of_these_terms_please_refrain_from_using_our_app_1_user_conduct_you_agree_to_use_the_app_in_accordance_with_all_applicable_laws_and_regulations_you_agree_not_to_use_the_app_for_any_unlawful_or_unauthorized_purpose_you_agree_not_to_interfere_with_the_app_s_operation_or_disrupt_other_users_experiences_2_account_registration_you_may_be_required_to_create_an_account_to_access_certain_features_of_the_app_you_agree_to_provide_accurate_and_complete_information_when_registering_for_an_account_you_are_responsible_for_maintaining_the_confidentiality_of_your_account_credentials_and_for_all_activities_that_occur_und"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        style="@android:style/Widget.Button"
+        android:layout_width="235dp"
+
+
+        android:layout_height="58dp"
+        android:layout_margin="32dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/button_login"
+        android:text="@string/agree"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
