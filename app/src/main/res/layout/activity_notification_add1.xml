@@ -62,8 +62,7 @@
                     android:id="@+id/titleEditText"
                     android:layout_width="350dp"
                     android:layout_height="53dp"
-                    android:layout_margin="5dp"
-                    android:layout_marginStart="50dp"
+                    android:layout_marginStart="30dp"
                     android:background="@drawable/blue_border"
                     android:ems="10"
                     android:hint="@string/upcomingshows"
@@ -76,8 +75,8 @@
                     android:id="@+id/contentEditText"
                     android:layout_width="350dp"
                     android:layout_height="100dp"
-                    android:layout_margin="5dp"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="30dp"
                     android:background="@drawable/blue_border"
                     android:ems="10"
                     android:layout_marginBottom="50dp"
@@ -89,31 +88,13 @@
                     android:textColorHint="#66FFFFFF" />
 
 
-                <EditText
-                    android:id="@+id/Date"
-                    android:layout_width="350dp"
-                    android:layout_height="53dp"
-                    android:layout_margin="5dp"
-                    android:layout_marginStart="20dp"
-                    android:ems="10"
-                    android:hint="Date"
-                    android:inputType="date"
-                    android:minHeight="48dp"
-                    android:background="@drawable/blue_border"
-                    android:textColor="@color/black"
-                    android:textColorHint="#66FFFFFF"
-                    />
-
-
-
-
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/saveButton"
                     android:layout_width="161dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="70dp"
-                    android:background="@drawable/gradiant_color_background"
+                    android:background="@drawable/background_button"
                     android:paddingStart="10dp"
                     android:text="@string/add"
                     android:textColor="@color/white"
