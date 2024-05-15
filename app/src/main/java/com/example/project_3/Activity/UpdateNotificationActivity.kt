@@ -29,14 +29,17 @@ class UpdateNotificationActivity : AppCompatActivity() {
         binding.updatetitleEditText.setText(notification.title)
         binding.updatecontentEditText.setText(notification.content)
 
-       binding.updatesaveButton.setOnClickListener{
+       binding.updatesaveButton.setOnClickListener {
            val newTitle = binding.updatetitleEditText.text.toString()
            val newContent = binding.updatecontentEditText.text.toString()
-           val updatedNotification = Notification(notificationId,newTitle,newContent)
-           db.updateNotitfication(updatedNotification)
-           finish()
-           Toast.makeText(this,"Changes Saved successfully",Toast.LENGTH_SHORT).show()
+           if (newTitle.isBlank() || newContent.isBlank()) {
+               Toast.makeText(this, "Title and Content cannot be empty", Toast.LENGTH_SHORT).show()
+           } else {
+               val updatedNotification = Notification(notificationId, newTitle, newContent)
+               db.updateNotitfication(updatedNotification)
+               finish()
+               Toast.makeText(this, "Changes Saved successfully", Toast.LENGTH_SHORT).show()
+           }
        }
-
 }
 }

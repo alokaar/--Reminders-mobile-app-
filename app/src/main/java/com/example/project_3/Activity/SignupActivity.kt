@@ -22,6 +22,7 @@ class SignupActivity : AppCompatActivity() {
         binding.signupButton.setOnClickListener {
             val signupUsername = binding.signupUsername.text.toString()
             val signupPassword = binding.signupPassword.text.toString()
+
             if (signupUsername.isNotEmpty() && signupPassword.isNotEmpty()) {
                 signupDatabase(signupUsername, signupPassword)
             } else {

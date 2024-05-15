@@ -18,12 +18,27 @@
         android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/seerch_edit_background"
+        android:ems="10"
+        android:hint="  Search shows. . . ."
+        android:inputType="text"
+        android:text=""
+        android:paddingStart="7dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/notificationsRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="772dp"
         android:layout_below="@id/notificationsHeading"
-        android:paddingBottom="16dp"/>
+        android:layout_marginTop="69dp"
+        android:paddingBottom="16dp" />
 
 </RelativeLayout>
