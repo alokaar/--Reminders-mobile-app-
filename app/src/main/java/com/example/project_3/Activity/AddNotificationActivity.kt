@@ -40,7 +40,7 @@ class AddNotificationActivity : AppCompatActivity() {
 
             val notification = Notification(0, title, content)
             db.insertNotification(notification) // Insert the notification into the database
-            Toast.makeText(this, "Note Saved", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Reminder Saved Successfully", Toast.LENGTH_SHORT).show()
             finish()
         }
     }

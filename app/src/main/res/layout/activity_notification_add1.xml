@@ -80,9 +80,10 @@
                     android:background="@drawable/blue_border"
                     android:ems="10"
                     android:layout_marginBottom="50dp"
-                    android:hint="@string/note"
+                    android:hint="Include Description about dates,locations"
                     android:inputType="text"
                     android:paddingStart="10dp"
+                    android:paddingBottom="49dp"
                     android:textColor="@color/black"
 
                     android:textColorHint="#66FFFFFF" />
